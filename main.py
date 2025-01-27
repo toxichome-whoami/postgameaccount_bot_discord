@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv(dotenv_path='.env')
 
+
 # Retrieve the token and webhook URLs from the environment variables
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 STEAM_WEBHOOK_URL = os.getenv('STEAM_WEBHOOK_URL')
